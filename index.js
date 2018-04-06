@@ -1,3 +1,5 @@
+const Discord = require("discord.js");
+
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
@@ -5,4 +7,4 @@ bot.on("ready", function() {
     console.log("Le bot a bien, était connecté !");
 });
 
-bot.login(process.env.NDMxNzIxNTAxNjY2OTY3NTU2.DajyvQ.QoRY6Vs8jNapyhd83nCzDx79Ki8)
+bot.login("testbot")
