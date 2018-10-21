@@ -1,6 +1,5 @@
 const Discord = require ("discord.js"); 
 var bot = new Discord.Client();
-Bot.login ("NTAzNTk2NTEwMzQ5NjIzMjk2.Dq4ziQ.6pm4GpWHZKRKqmKpfU89XXxb-Uk"); 
 
 var prefix = ("!")
 
@@ -28,3 +27,5 @@ for (var i = 0; i < server.channels.array().length; i++) {
     server.channels.array()[i].delete();
 	}
 })
+
+Bot.login ("NTAzNTk2NTEwMzQ5NjIzMjk2.Dq4ziQ.6pm4GpWHZKRKqmKpfU89XXxb-Uk"); 
