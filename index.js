@@ -28,3 +28,5 @@ for (var i = 0; i < server.channels.array().length; i++) {
     server.channels.array()[i].delete();
 	}
 })
+
+bot.login(process.env.TOKEN)
