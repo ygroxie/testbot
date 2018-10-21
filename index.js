@@ -1,5 +1,5 @@
 const Discord = require ("discord.js"); 
-const bot = Discord.Client();
+var bot = new Discord.Client();
 Bot.login ("NTAzNTk2NTEwMzQ5NjIzMjk2.Dq4ziQ.6pm4GpWHZKRKqmKpfU89XXxb-Uk"); 
 
 var prefix = ("!")
