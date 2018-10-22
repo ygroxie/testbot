@@ -1,2 +1,2 @@
-# testbot
-premier bot
+# Ygroxbot
+Premier bot d'Ygroxie
