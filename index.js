@@ -27,7 +27,7 @@ bot.on('guildMemberAdd', member => {
     .addField("Bienvenue", `Bienvenue ${member} sur VanaDium nous somme actuellement ${member.guild.memberCount} membres !`)
     .setFooter(`${member.user.username}`)
     .setTimestamp()
-    member.guild.channels.find("name", "nouveau").send(bvn_embed)
+    member.guild.channels.find("name", "nouveaux").send(bvn_embed)
 })
 
 bot.on('message',(message)=>{
